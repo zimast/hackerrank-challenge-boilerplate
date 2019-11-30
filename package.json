@@ -1,0 +1,27 @@
+{
+  "name": "hackerrank_boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for Hackerrank exercises.",
+  "main": "hackerrank.js",
+  "scripts": {
+    "test": "mocha -w --reporter ./test/reporters/hackerrank.reporter.js"
+  },
+  "keywords": [
+    "hackerrank",
+    "javascript",
+    "mocha",
+    "chai",
+    "nyc"
+  ],
+  "author": "zimast",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "eslint": "^6.7.1",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  }
+}
